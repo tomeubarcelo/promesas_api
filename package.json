@@ -1,0 +1,23 @@
+{
+  "name": "promesas_api",
+  "version": "1.0.0",
+  "description": "Ejercicio promesas api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomeubarcelo/promesas_api.git"
+  },
+  "keywords": [
+    "promesas",
+    "api"
+  ],
+  "author": "Tomeu Barcelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomeubarcelo/promesas_api/issues"
+  },
+  "homepage": "https://github.com/tomeubarcelo/promesas_api#readme"
+}
