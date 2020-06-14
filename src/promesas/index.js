@@ -10,7 +10,7 @@ Siguiendo la estructura de NPM y marcando los git, cuando vayamos avanzando en n
 */
 
 var XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
-const API = "https://rickandmortyapi.com/api/character/";
+const API = "https://rickandmortyapi.com/api/";
 const PERSONAJE = "character/:id";
 
 const TraerPersonaje = () => {
