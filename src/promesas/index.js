@@ -12,6 +12,7 @@ Siguiendo la estructura de NPM y marcando los git, cuando vayamos avanzando en n
 var XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 const API = "https://rickandmortyapi.com/api/character/";
 const PERSONAJE = "character/:id";
+
 const TraerPersonaje = () => {
     let httpRequest = new XMLHttpRequest();
     httpRequest.open("GET", API + PERSONAJE.replace(":id", 1), true); // definimos la ruta y si es GET o POST
